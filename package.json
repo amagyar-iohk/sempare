@@ -1,0 +1,34 @@
+{
+  "name": "sempare",
+  "version": "0.0.0",
+  "description": "simple tool to compare semantic version",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.spec"
+  },
+  "bin": {
+    "sempare": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amagyar-iohk/sempare.git"
+  },
+  "keywords": [
+    "semantic",
+    "version",
+    "compare"
+  ],
+  "author": "Allain Magyar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amagyar-iohk/sempare/issues"
+  },
+  "homepage": "https://github.com/amagyar-iohk/sempare#readme",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "semantic-release": "^24.1.0"
+  }
+}
